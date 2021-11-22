@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
   - type "git clone https://github.com/Wes-Isaac/Math-Magician.git".
   - run "npm install" and then "npm start"
 
-## Authors
+## Author
 
 👤 **Yishak**
 
@@ -37,7 +37,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project is built in Microverse's second module's capstone.
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
 
 ## 📝 License
 
