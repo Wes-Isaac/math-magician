@@ -1,6 +1,5 @@
 import { Component } from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Button extends Component {
   render() {
     const { buttonName, css, handleClick } = this.props;

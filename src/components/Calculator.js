@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Button from './Button';
 import Display from './Display';
 import calculate from '../logic/calculate';
 import './calculator.css';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends React.Component {
+class Calculator extends Component {
   constructor() {
     super();
     this.state = {

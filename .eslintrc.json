@@ -19,6 +19,7 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "import/no-unresolved": "off",
+    "react/prefer-stateless-function": "off",
     "no-shadow": "off",
     "react/button-has-type": "off"
   },

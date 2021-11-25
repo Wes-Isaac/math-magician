@@ -1,6 +1,5 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Display extends Component {
   render() {
     const {
