@@ -6,8 +6,8 @@ import './calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       total: '0',
       next: null,
