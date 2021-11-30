@@ -1,14 +1,20 @@
 import { Component } from 'react';
 import Calculator from './components/Calculator';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
-class App extends Component {
-  render() {
-    return (
+function App() {
+  return (
+    <Router>
       <div className="App">
-        <Calculator />
+        <Navbar />
+          <Routes> 
+            <Route exact path="/calculator" element={<Calculator />} />
+          </Routes>
       </div>
-    );
+    </Router>
+  );
   }
-}
+
 
 export default App;
