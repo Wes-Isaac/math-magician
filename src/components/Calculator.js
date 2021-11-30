@@ -16,27 +16,30 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-grid">
-      <Display css="output" total={total} next={next} operation={operation} />
-      <Button buttonName="AC" handleClick={handleClick} />
-      <Button buttonName="+/-" handleClick={handleClick} />
-      <Button buttonName="%" handleClick={handleClick} />
-      <Button buttonName="÷" css="bg-secondary" handleClick={handleClick} />
-      <Button buttonName="7" handleClick={handleClick} />
-      <Button buttonName="8" handleClick={handleClick} />
-      <Button buttonName="9" handleClick={handleClick} />
-      <Button buttonName="x" css="bg-secondary" handleClick={handleClick} />
-      <Button buttonName="4" handleClick={handleClick} />
-      <Button buttonName="5" handleClick={handleClick} />
-      <Button buttonName="6" handleClick={handleClick} />
-      <Button buttonName="-" css="bg-secondary" handleClick={handleClick} />
-      <Button buttonName="1" handleClick={handleClick} />
-      <Button buttonName="2" handleClick={handleClick} />
-      <Button buttonName="3" handleClick={handleClick} />
-      <Button buttonName="+" css="bg-secondary" handleClick={handleClick} />
-      <Button buttonName="0" css="span-two" handleClick={handleClick} />
-      <Button buttonName="." handleClick={handleClick} />
-      <Button buttonName="=" css="bg-secondary" handleClick={handleClick} />
+    <div className="container">
+      <p>Let&apos;s do some Math!</p>
+      <div className="calculator-grid">
+        <Display css="output" total={total} next={next} operation={operation} />
+        <Button buttonName="AC" handleClick={handleClick} />
+        <Button buttonName="+/-" handleClick={handleClick} />
+        <Button buttonName="%" handleClick={handleClick} />
+        <Button buttonName="÷" css="bg-secondary" handleClick={handleClick} />
+        <Button buttonName="7" handleClick={handleClick} />
+        <Button buttonName="8" handleClick={handleClick} />
+        <Button buttonName="9" handleClick={handleClick} />
+        <Button buttonName="x" css="bg-secondary" handleClick={handleClick} />
+        <Button buttonName="4" handleClick={handleClick} />
+        <Button buttonName="5" handleClick={handleClick} />
+        <Button buttonName="6" handleClick={handleClick} />
+        <Button buttonName="-" css="bg-secondary" handleClick={handleClick} />
+        <Button buttonName="1" handleClick={handleClick} />
+        <Button buttonName="2" handleClick={handleClick} />
+        <Button buttonName="3" handleClick={handleClick} />
+        <Button buttonName="+" css="bg-secondary" handleClick={handleClick} />
+        <Button buttonName="0" css="span-two" handleClick={handleClick} />
+        <Button buttonName="." handleClick={handleClick} />
+        <Button buttonName="=" css="bg-secondary" handleClick={handleClick} />
+      </div>
     </div>
   );
 };

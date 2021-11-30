@@ -4,15 +4,79 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 80vh;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+}
+
+.links a {
+  font-size: 1.1rem;
+  color: #0d63e6;
+  border-right: 2px black solid;
+  padding: 0 10px;
+}
+
+.links a:last-child {
+  border-right: none;
+}
+
+.home {
+  min-height: inherit;
+  padding: 1rem;
+}
+
+.home h2 {
+  margin-bottom: 15px;
+}
+
+.home p {
+  margin: 30px 0;
+  text-align: justify;
+}
+
+.quote {
+  min-height: inherit;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.quote p {
+  font-size: 1.3rem;
+}
+
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .calculator-grid {
   display: grid;
-  margin-top: 2rem;
   justify-content: center;
   grid-template-columns: repeat(4, 8rem);
   grid-template-rows: minmax(6rem, auto) repeat(5, 4.5rem);
-  max-height: 100vh;
 }
 
 .calculator-grid > button {
