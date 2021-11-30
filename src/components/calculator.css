@@ -46,6 +46,7 @@
 .home h2 {
   margin-bottom: 15px;
 }
+
 .home p {
   margin: 30px 0;
   text-align: justify;
@@ -58,7 +59,6 @@
   display: flex;
   align-items: center;
   padding: 0 3rem;
-
 }
 
 .quote p {
@@ -77,7 +77,6 @@
   justify-content: center;
   grid-template-columns: repeat(4, 8rem);
   grid-template-rows: minmax(6rem, auto) repeat(5, 4.5rem);
-  /* max-height: 100vh; */
 }
 
 .calculator-grid > button {
