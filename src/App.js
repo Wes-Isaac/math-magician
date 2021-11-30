@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Calculator from './components/Calculator';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
