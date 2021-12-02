@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots for all components matches Button snapshot 1`] = `
+<button
+  onClick={[Function]}
+/>
+`;
+
+exports[`test screenshots for all components matches Calculator snapshot 1`] = `
+<div
+  className="container"
+>
+  <p>
+    Let's do some Math!
+  </p>
+  <div
+    className="calculator-grid"
+  >
+    <div
+      className="output"
+    >
+      0
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      AC
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      +/-
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      %
+    </button>
+    <button
+      className="bg-secondary"
+      onClick={[Function]}
+    >
+      ÷
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      9
+    </button>
+    <button
+      className="bg-secondary"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      6
+    </button>
+    <button
+      className="bg-secondary"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      3
+    </button>
+    <button
+      className="bg-secondary"
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      className="span-two"
+      onClick={[Function]}
+    >
+      0
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      .
+    </button>
+    <button
+      className="bg-secondary"
+      onClick={[Function]}
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`test screenshots for all components matches Display snapshot 1`] = `<div />`;
+
+exports[`test screenshots for all components matches Home snapshot 1`] = `
+<div
+  className="home"
+>
+  <h2>
+    Welcome to our page.
+  </h2>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti deserunt omnis culpa possimus at illum recusandae, architecto assumenda autem, repellendus ipsum suscipit alias aperiam fugit! Repellendus asperiores voluptatem quibusdam sapiente nisi error blanditiis, laboriosam obcaecati et dignissimos quod temporibus incidunt, tenetur velit. Debitis reprehenderit deserunt alias, dolore ipsam impedit quasi distinctio, praesentium, explicabo nesciunt sunt qui cum adipisci quas consequuntur.Debitis reprehenderit deserunt alias, dolore ipsam impedit quasi distinctio, praesentium, explicabo nesciunt sunt qui cum adipisci quas consequuntur.
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti deserunt omnis culpa possimus at illum recusandae, architecto assumenda autem, repellendus ipsum suscipit alias aperiam fugit! Repellendus asperiores voluptatem quibusdam sapiente nisi error blanditiis, laboriosam obcaecati et dignissimos quod temporibus incidunt, tenetur velit. Debitis reprehenderit deserunt alias, dolore ipsam impedit quasi distinctio, praesentium, explicabo nesciunt sunt qui cum adipisci quas consequuntur.Debitis reprehenderit deserunt alias, dolore ipsam impedit quasi distinctio, praesentium, explicabo nesciunt sunt qui cum adipisci quas consequuntur.
+  </p>
+</div>
+`;
+
+exports[`test screenshots for all components matches Navbar snapshot 1`] = `
+<nav
+  className="navbar"
+>
+  <h1>
+    Math Magician
+  </h1>
+  <div
+    className="links"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <a
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`test screenshots for all components matches Quote snapshot 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - William Paul Thurston
+  </p>
+</div>
+`;
