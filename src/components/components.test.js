@@ -1,4 +1,3 @@
-import react from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Calculator from './Calculator';
@@ -41,12 +40,11 @@ describe('test screenshots for all components', () => {
 
   test('matches Navbar snapshot', () => {
     const tree = renderer.create(
-    <Router>
-      <Navbar />
-    </Router>,
-      ).toJSON();
+      <Router>
+        <Navbar />
+      </Router>,
+    ).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
-
 });
