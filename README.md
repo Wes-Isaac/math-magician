@@ -9,6 +9,10 @@
 - React
 - git/GitHub
 
+## Live Demo
+
+[Live Demo Link](https://reverent-leakey-e3df03.netlify.app/)
+
 ### `Getting Started
 To get a local copy up and running follow these simple example steps.
 
